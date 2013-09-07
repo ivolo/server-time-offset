@@ -4,7 +4,7 @@ Determines the offset between the client time and the server time by continuousl
 
 ## Installation
 
-    $ component install ivolo/server-offset
+    $ component install ivolo/server-time-offset
 
 ## Example
 
