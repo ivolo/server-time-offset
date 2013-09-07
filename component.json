@@ -1,0 +1,16 @@
+{
+  "name": "server-time-offset",
+  "repo": "ivolo/server-time-offset",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Determines the offset between the client time and the server time by continuously pinging the server.",
+  "keywords": ["server", "time", "offset"],
+  "dependencies": {
+    "component/emitter": "*",
+    "avetisk/defaults": "*"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "scripts": ["index.js"]
+}
