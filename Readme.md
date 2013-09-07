@@ -1,4 +1,4 @@
-# server-offset
+# server-time-offset
 
 Determines the offset between the client time and the server time by continuously pinging the server.
 
