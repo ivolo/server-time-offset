@@ -13,7 +13,7 @@ var assert = require('assert')
       var pinger = server.ping({every: 500});
       pinger.on('offset', function (offset) {
         // use the offset
-        assert(offset > 0);
+        assert(Math.abs(offset) > 0);
         done();
       });
     });
